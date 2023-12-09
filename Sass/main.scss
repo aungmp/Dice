@@ -1,0 +1,71 @@
+
+
+@use 'base';
+@import '-variable';
+
+.box{
+    height:auto;
+
+    background-color:$colorOne;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    p{
+        font-size:5rem;
+        color:$colorTwo;
+        padding:2rem;
+    }
+    .player-box-up{
+      
+        display: flex;
+        justify-content:center;
+       
+        img{
+            width:100px;
+            padding:2rem 2%;
+            background:none;
+        }
+        
+     
+    }
+   
+    .btn-box{
+        display:block;
+        button{
+            margin:2rem 2%;
+            cursor:pointer;
+            background-color: $colorThree;
+            font-size:1rem;
+            border: none;
+            border-radius: 1rem;
+            padding:20px;
+        }
+    }
+    .nextBtn{
+        color: $colorFour;
+        font-size:2rem;
+        border: none;
+        border-radius: 1rem;
+        margin:2rem 0;
+        padding:15px;
+        cursor:pointer;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: $colorTwo;
+        
+    }
+
+
+    .address-box{
+       
+        display:flex;
+        justify-content: center;
+        p{
+            margin:3rem 0;
+            font-size:1rem;
+            padding: 0.5%;
+            color:#ffff;
+        }
+    
+       
+    }
+
+}
